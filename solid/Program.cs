@@ -1,12 +1,12 @@
-﻿using System;
-
-namespace ConsoleApplication
+﻿namespace ConsoleApplication
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var writer = new FileLogger();
+
+            writer.LogMessage("Hello World!!");
         }
     }
 }
