@@ -2,14 +2,14 @@ using System;
 
 namespace ConsoleApplication
 {
-    public class FileLogger : IFileLogger
+    public abstract class Dog : IDog
     {
-        public FileLogger()
+        public Dog()
         {
 
         }
 
-        public void LogMessage(string message)
+        public virtual void Bark(string message)
         {
             Console.WriteLine(message);
         }

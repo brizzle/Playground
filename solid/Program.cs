@@ -4,9 +4,14 @@
     {
         public static void Main(string[] args)
         {
-            var writer = new FileLogger();
+            var abstractYorkie = new AbstractYorkie();
+            abstractYorkie.Bark("Abstract Bark");
 
-            writer.LogMessage("Hello World!!");
+            var yorkie = new Yorkie();
+            yorkie.Bark("Bark");
+
+            var abstractGreatDane = new AbstractGreatDane();
+            abstractGreatDane.Bark("BARK!!!");
         }
     }
 }
