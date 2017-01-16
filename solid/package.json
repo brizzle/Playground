@@ -6,6 +6,7 @@
   "author": "Brock Billings",
   "license": "UNLICENSED",
   "dependencies": {
+    "angular": "^1.5.8"
   },
   "readme": "~"
 }
