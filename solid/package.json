@@ -1,0 +1,11 @@
+{
+  "name": "palyground",
+  "version": "1.0.0",
+  "description": "Test code",
+  "main": "program.cs",
+  "author": "Brock Billings",
+  "license": "UNLICENSED",
+  "dependencies": {
+  },
+  "readme": "~"
+}
